@@ -1,0 +1,6 @@
+★Pythonの拡張子関連付け
+http://crape.org/tips/programming/91-python-assoc.html
+
+★Pythonのパッケージ（ライブラリ）のバージョンを確認 | note.nkmk.me
+https://note.nkmk.me/python-package-version/
+
