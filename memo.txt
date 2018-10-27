@@ -1,8 +1,25 @@
 ★1_Anaconda導入するにあたってPathが通らなかった件 - stegral の雑記
 http://ac-stegral.hateblo.jp/entry/2018/04/17/005218
 
+＜ユーザー環境変数＞
+C:\Users\okazaki\Anaconda3
+C:\Users\okazaki\Anaconda3\Scripts
+
 ★2_Pythonの拡張子関連付け
 http://crape.org/tips/programming/91-python-assoc.html
+
+assoc .py=Python.File
+assoc .pyo=Python.CompiledFile
+assoc .pyw=Python.NoConFile
+
+ftype Python.File="C:\Users\okazaki\Anaconda3\python.exe" "%1" %*
+ftype Python.CompiledFile="C:\Users\okazaki\Anaconda3\python.exe" "%1" %*
+ftype Python.NoConFile="C:\Users\okazaki\Anaconda3\pythonw.exe" "%1" %*
+
+
+Windowsのコマンドプロンプトでファイル拡張子の関連付けを変更する：Tech TIPS - ＠IT
+http://www.atmarkit.co.jp/ait/articles/0701/27/news021.html
+
 
 ★3_Pythonのパッケージ（ライブラリ）のバージョンを確認 | note.nkmk.me
 https://note.nkmk.me/python-package-version/
